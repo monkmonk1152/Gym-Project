@@ -1,0 +1,175 @@
+ *{
+     /* border: solid red 1px; */
+} 
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0%;
+    margin-top: 0%;
+    width: 80%;
+    align-items: center;
+}
+
+.li{
+    display: flex;
+    border-right: 1px solid black;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(198, 192, 192);
+    position: fixed;
+    margin-top: 0%;
+    font-weight: 700;
+    color: rgb(6, 139, 255);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    width: 25%;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    align-content: center;
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+}
+
+.showfeats {
+    z-index: 1;
+    color: rgb(199, 93, 18);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 3.5em;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000; 
+}
+
+.main-page{
+    background-color: black;
+    color: rgb(10, 237, 237);
+    text-align: center;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 230px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-container{
+    width: 100%;
+    height: 297px;
+    border: solid rgb(0, 0, 0) 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-pg-dimensions{
+    border: solid rgb(215, 82, 82) 9px;
+    
+}
+
+.offers{
+    display: inline-flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    border: solid rgb(157, 213, 83) 6px;
+}
+
+h2{
+    color: rgb(7, 7, 7);
+    font-weight: 900;
+    background-color: beige;
+    font-size: 3em;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.grid-container{
+     display: grid;
+    grid-template-columns: 650px 500px;
+    /* grid-template-rows: auto auto; */
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-left: 50px;
+}
+
+  
+.grid-container-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #000;
+    color: rgb(88, 139, 22);
+    font-weight: 900;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.map{
+    margin-bottom: 0px;
+}
+
+.footinfo{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

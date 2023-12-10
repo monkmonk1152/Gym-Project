@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    margin-top: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: solid red; */
+}
+
+.sign{
+    width: 250px;
+    height: 500px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border:10px solid rgb(87, 69, 114);
+    margin: 0px auto 200px auto;
+    padding-top: 1px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    border-radius: 60px;
+    background-color: rgb(102, 191, 207)
+}
+
+.sign h1{
+    font-weight: 600;
+    font-size: 43px;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.sign label{
+    font-size: 13px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    justify-content: space-between;}
+
+.sign input{
+    width: 200px;
+    height: 40px;
+    padding: 6px 7px;
+    margin-top: 0px;
+    border: 2px solid #8c4343;
+    background-color: rgb(225, 216, 216);
+    border-radius: 9px;
+    display: block;
+}
+
+.button{
+    background-color: rgb(16, 211, 255);
+    height: 1px;
+    align-content: center;
+    margin-top: 10px;
+    margin: 23px;
+}
+
+.form label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass{
+    justify-content: right;
+    padding-top: 0px;
+}
+
+.pass button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(62, 91, 105);
+    width: 250px;
+    height: 25px;
+    align-content: center;
+    border: 1px solid rgb(122, 0, 0);
+    background-image: linear-gradient(rgb(229, 152, 152),rgb(108, 108, 243));
+    border-radius: 2px;
+    font-size: 1em;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.a-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.header-container{
+    border: 2px solid rgb(130, 87, 87);
+    width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(237, 114, 114);
+    margin-top: 20px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.main-tile-dimension{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.background{
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    
+}
+
+footer{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 209, 209);
+    width: 100%;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.img{
+   display: flex;
+   flex-direction: row;
+   background-color: black;
+}
